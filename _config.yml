@@ -9,7 +9,7 @@ name: Xuming Zeng
 description: "CS371p Fall 2016: Xuming Zeng"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars2.githubusercontent.com/u/1859825?v=3&s=300
+avatar: https://scontent-dft4-1.xx.fbcdn.net/v/t1.0-9/943566_598468350184236_904313582_n.jpg?oh=f9fc09066911365af3476b6614df38b7&oe=5848DD3E
 
 #
 # Flags below are optional
@@ -19,14 +19,14 @@ avatar: https://avatars2.githubusercontent.com/u/1859825?v=3&s=300
 footer-links:
   dribbble:
   email:
-  facebook:
+  facebook: quirnius
   flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
+  github: xsznix
+  instagram: xsznix
+  linkedin: xumingzeng
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
+  twitter: xsznix
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
