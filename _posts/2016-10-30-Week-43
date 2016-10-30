@@ -1,0 +1,39 @@
+---
+layout: post
+title: This title has nothing to do with the content of this blog post
+---
+
+**What did you do this past week?** My partner and I spent an evening working on Darwin and we have a candidate implementation that we feel confident about; once we write unit tests to flesh out any possible bugs we still have, it should be ready to turn in. I actually really enjoy writing unit tests for this project. The unit tests felt contrived in the first three projects, but for this project it just *feels* like writing unit tests is the best way to make sure the code works. Not sure if that makes sense, but that's how I feel.
+
+**What's in your way?** Nothing's in my way, actually. OOP as a class overall has been going well recently.
+
+Doing the project in C++ makes me wish I had several of the advanced type system features of Rust, including being able to do stuff like this:
+
+```
+enum Instruction {
+  Hop,
+  Left,
+  Right,
+  Infect,
+  IfEmpty(u32),
+  IfWall(u32),
+  IfRandom(u32),
+  IfEnemy(u32),
+  Go(u32),
+}
+```
+
+You can use enums in Rust like union types that hold additional information depending on the variant, and everything's checked at compile time and guaranteed to run and be safe. As a question to the reader: How would you do this in C++?
+
+Also, we return references in several places in our code and sometimes I've wanted to be able to return either a reference or nothing. In C++, as far as I know the ways you can do this is to return a raw pointer (which then brings up the question of where to store the value pointed to by the pointer and who's responsible for freeing it) or creating another struct. In Rust, to return a reference to `T` or nothing, you can just do this:
+
+```
+fn foo() -> Option<&T> {
+  if ... {
+    Some(...)
+  } else {
+    None
+  }
+}
+
+**What will you do next week?** I'll finish writing unit tests and fixing bugs for Darwin. Oh, and create a UML diagram. Have we covered those in class?
